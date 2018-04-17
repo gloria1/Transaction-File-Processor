@@ -41,7 +41,9 @@ namespace Transaction_File_Processor
             //      if no matches, insert nomatch in each new column
             //      if one match, insert values from mapping
             //      write to transprocfile
+            
 
+            string d = Directory.GetCurrentDirectory();
             StreamReader mf = new StreamReader("\\onedrive\\ao\\transactions\\map1.txt");
             string[] s;
             s = File.ReadAllLines("\\onedrive\\ao\\transactions\\map1.txt");
